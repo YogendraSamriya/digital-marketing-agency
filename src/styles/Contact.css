@@ -1,0 +1,81 @@
+.contact-section {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #0f172a, #0b1120);
+  color: #e2e8f0;
+}
+
+.contact-section h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+  background: linear-gradient(90deg, #00f5ff, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-form {
+  max-width: 650px;
+  margin: auto;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(14px);
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.4s ease;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00f5ff;
+  box-shadow: 0 0 10px rgba(0,245,255,0.5);
+}
+
+/* Futuristic Button */
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #00f5ff, #2563eb);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(37,99,235,0.5);
+}
+
+@media (max-width: 768px) {
+  .contact-section h1 {
+    font-size: 30px;
+  }
+
+  .contact-form {
+    padding: 30px;
+  }
+}
